@@ -1,0 +1,583 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D21859811D0F50510014598E /* CLTypingLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D21859801D0F50510014598E /* CLTypingLabel.swift */; };
+		D225C04B1D67D53D00CA1051 /* GoogleMobileAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D225C04A1D67D53D00CA1051 /* GoogleMobileAds.framework */; };
+		D22EE4D51CF4ED9D001749B6 /* Background2.png in Resources */ = {isa = PBXBuildFile; fileRef = D22EE4D41CF4ED9D001749B6 /* Background2.png */; };
+		D2379AF01D4C6777000EB6AC /* BackButton2.png in Resources */ = {isa = PBXBuildFile; fileRef = D2379AEF1D4C6777000EB6AC /* BackButton2.png */; };
+		D24BF32B1D0CEEF7006BB28E /* Credits.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24BF32A1D0CEEF7006BB28E /* Credits.swift */; };
+		D2658E721D2F3ACF00F95BF3 /* unchecked_box.png in Resources */ = {isa = PBXBuildFile; fileRef = D2658E711D2F3ACF00F95BF3 /* unchecked_box.png */; };
+		D29CCE4C1D2C93EC00FF067F /* TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29CCE4B1D2C93EC00FF067F /* TableView.swift */; };
+		D29CCE4E1D2C9B1F00FF067F /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29CCE4D1D2C9B1F00FF067F /* TableViewCell.swift */; };
+		D2B552981D2063910063D28A /* Save-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = D2B552971D2063910063D28A /* Save-icon.png */; };
+		D2B5529A1D2068680063D28A /* Blank.png in Resources */ = {isa = PBXBuildFile; fileRef = D2B552991D2068680063D28A /* Blank.png */; };
+		D2C035BF1D2F431D007F6BF6 /* checked_box2.png in Resources */ = {isa = PBXBuildFile; fileRef = D2C035BE1D2F431D007F6BF6 /* checked_box2.png */; };
+		D2FAA7DD1CF38D5A00D4F47F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2FAA7DC1CF38D5A00D4F47F /* AppDelegate.swift */; };
+		D2FAA7DF1CF38D5A00D4F47F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2FAA7DE1CF38D5A00D4F47F /* ViewController.swift */; };
+		D2FAA7E21CF38D5A00D4F47F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2FAA7E01CF38D5A00D4F47F /* Main.storyboard */; };
+		D2FAA7E41CF38D5A00D4F47F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2FAA7E31CF38D5A00D4F47F /* Assets.xcassets */; };
+		D2FAA7E71CF38D5A00D4F47F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2FAA7E51CF38D5A00D4F47F /* LaunchScreen.storyboard */; };
+		D2FAA7F21CF38D5A00D4F47F /* Man_in_the_MachineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2FAA7F11CF38D5A00D4F47F /* Man_in_the_MachineTests.swift */; };
+		D2FAA7FD1CF38D5A00D4F47F /* Man_in_the_MachineUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2FAA7FC1CF38D5A00D4F47F /* Man_in_the_MachineUITests.swift */; };
+		D2FAA80B1CF3930A00D4F47F /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2FAA80A1CF3930A00D4F47F /* Game.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D2FAA7EE1CF38D5A00D4F47F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D2FAA7D11CF38D5900D4F47F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D2FAA7D81CF38D5A00D4F47F;
+			remoteInfo = "Man in the Machine";
+		};
+		D2FAA7F91CF38D5A00D4F47F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D2FAA7D11CF38D5900D4F47F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D2FAA7D81CF38D5A00D4F47F;
+			remoteInfo = "Man in the Machine";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D21859801D0F50510014598E /* CLTypingLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CLTypingLabel.swift; sourceTree = "<group>"; };
+		D225C04A1D67D53D00CA1051 /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMobileAds.framework; sourceTree = "<group>"; };
+		D22EE4D41CF4ED9D001749B6 /* Background2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Background2.png; sourceTree = "<group>"; };
+		D2379AEF1D4C6777000EB6AC /* BackButton2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BackButton2.png; sourceTree = "<group>"; };
+		D24BF32A1D0CEEF7006BB28E /* Credits.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Credits.swift; path = ../Credits.swift; sourceTree = "<group>"; };
+		D2658E711D2F3ACF00F95BF3 /* unchecked_box.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = unchecked_box.png; sourceTree = "<group>"; };
+		D29CCE4B1D2C93EC00FF067F /* TableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableView.swift; sourceTree = "<group>"; };
+		D29CCE4D1D2C9B1F00FF067F /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		D2B552971D2063910063D28A /* Save-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Save-icon.png"; sourceTree = "<group>"; };
+		D2B552991D2068680063D28A /* Blank.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Blank.png; sourceTree = "<group>"; };
+		D2C035BE1D2F431D007F6BF6 /* checked_box2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = checked_box2.png; sourceTree = "<group>"; };
+		D2FAA7D91CF38D5A00D4F47F /* Woman in the Machine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Woman in the Machine.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2FAA7DC1CF38D5A00D4F47F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D2FAA7DE1CF38D5A00D4F47F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D2FAA7E11CF38D5A00D4F47F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D2FAA7E31CF38D5A00D4F47F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D2FAA7E61CF38D5A00D4F47F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D2FAA7E81CF38D5A00D4F47F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2FAA7ED1CF38D5A00D4F47F /* Woman in the Machine.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Woman in the Machine.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2FAA7F11CF38D5A00D4F47F /* Man_in_the_MachineTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Man_in_the_MachineTests.swift; sourceTree = "<group>"; };
+		D2FAA7F31CF38D5A00D4F47F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2FAA7F81CF38D5A00D4F47F /* Woman in the Machine.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Woman in the Machine.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2FAA7FC1CF38D5A00D4F47F /* Man_in_the_MachineUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Man_in_the_MachineUITests.swift; sourceTree = "<group>"; };
+		D2FAA7FE1CF38D5A00D4F47F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2FAA80A1CF3930A00D4F47F /* Game.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D2FAA7D61CF38D5A00D4F47F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D225C04B1D67D53D00CA1051 /* GoogleMobileAds.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2FAA7EA1CF38D5A00D4F47F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2FAA7F51CF38D5A00D4F47F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D2FAA7D01CF38D5900D4F47F = {
+			isa = PBXGroup;
+			children = (
+				D225C04A1D67D53D00CA1051 /* GoogleMobileAds.framework */,
+				D2FAA7DB1CF38D5A00D4F47F /* Woman in the Machine */,
+				D2FAA7F01CF38D5A00D4F47F /* Man in the MachineTests */,
+				D2FAA7FB1CF38D5A00D4F47F /* Man in the MachineUITests */,
+				D2FAA7DA1CF38D5A00D4F47F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D2FAA7DA1CF38D5A00D4F47F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D2FAA7D91CF38D5A00D4F47F /* Woman in the Machine.app */,
+				D2FAA7ED1CF38D5A00D4F47F /* Woman in the Machine.xctest */,
+				D2FAA7F81CF38D5A00D4F47F /* Woman in the Machine.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D2FAA7DB1CF38D5A00D4F47F /* Woman in the Machine */ = {
+			isa = PBXGroup;
+			children = (
+				D2FAA7DC1CF38D5A00D4F47F /* AppDelegate.swift */,
+				D2FAA7DE1CF38D5A00D4F47F /* ViewController.swift */,
+				D2FAA7E01CF38D5A00D4F47F /* Main.storyboard */,
+				D2FAA80A1CF3930A00D4F47F /* Game.swift */,
+				D29CCE4B1D2C93EC00FF067F /* TableView.swift */,
+				D29CCE4D1D2C9B1F00FF067F /* TableViewCell.swift */,
+				D21859801D0F50510014598E /* CLTypingLabel.swift */,
+				D24BF32A1D0CEEF7006BB28E /* Credits.swift */,
+				D2FAA7E31CF38D5A00D4F47F /* Assets.xcassets */,
+				D22EE4D41CF4ED9D001749B6 /* Background2.png */,
+				D2FAA7E51CF38D5A00D4F47F /* LaunchScreen.storyboard */,
+				D2FAA7E81CF38D5A00D4F47F /* Info.plist */,
+				D2B552971D2063910063D28A /* Save-icon.png */,
+				D2B552991D2068680063D28A /* Blank.png */,
+				D2658E711D2F3ACF00F95BF3 /* unchecked_box.png */,
+				D2C035BE1D2F431D007F6BF6 /* checked_box2.png */,
+				D2379AEF1D4C6777000EB6AC /* BackButton2.png */,
+			);
+			name = "Woman in the Machine";
+			path = "Man in the Machine";
+			sourceTree = "<group>";
+		};
+		D2FAA7F01CF38D5A00D4F47F /* Man in the MachineTests */ = {
+			isa = PBXGroup;
+			children = (
+				D2FAA7F11CF38D5A00D4F47F /* Man_in_the_MachineTests.swift */,
+				D2FAA7F31CF38D5A00D4F47F /* Info.plist */,
+			);
+			path = "Man in the MachineTests";
+			sourceTree = "<group>";
+		};
+		D2FAA7FB1CF38D5A00D4F47F /* Man in the MachineUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D2FAA7FC1CF38D5A00D4F47F /* Man_in_the_MachineUITests.swift */,
+				D2FAA7FE1CF38D5A00D4F47F /* Info.plist */,
+			);
+			path = "Man in the MachineUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D2FAA7D81CF38D5A00D4F47F /* Woman in the Machine */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2FAA8011CF38D5A00D4F47F /* Build configuration list for PBXNativeTarget "Woman in the Machine" */;
+			buildPhases = (
+				D2FAA7D51CF38D5A00D4F47F /* Sources */,
+				D2FAA7D61CF38D5A00D4F47F /* Frameworks */,
+				D2FAA7D71CF38D5A00D4F47F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Woman in the Machine";
+			productName = "Man in the Machine";
+			productReference = D2FAA7D91CF38D5A00D4F47F /* Woman in the Machine.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D2FAA7EC1CF38D5A00D4F47F /* Woman in the MachineTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2FAA8041CF38D5A00D4F47F /* Build configuration list for PBXNativeTarget "Woman in the MachineTests" */;
+			buildPhases = (
+				D2FAA7E91CF38D5A00D4F47F /* Sources */,
+				D2FAA7EA1CF38D5A00D4F47F /* Frameworks */,
+				D2FAA7EB1CF38D5A00D4F47F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D2FAA7EF1CF38D5A00D4F47F /* PBXTargetDependency */,
+			);
+			name = "Woman in the MachineTests";
+			productName = "Man in the MachineTests";
+			productReference = D2FAA7ED1CF38D5A00D4F47F /* Woman in the Machine.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D2FAA7F71CF38D5A00D4F47F /* Woman in the MachineUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2FAA8071CF38D5A00D4F47F /* Build configuration list for PBXNativeTarget "Woman in the MachineUITests" */;
+			buildPhases = (
+				D2FAA7F41CF38D5A00D4F47F /* Sources */,
+				D2FAA7F51CF38D5A00D4F47F /* Frameworks */,
+				D2FAA7F61CF38D5A00D4F47F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D2FAA7FA1CF38D5A00D4F47F /* PBXTargetDependency */,
+			);
+			name = "Woman in the MachineUITests";
+			productName = "Man in the MachineUITests";
+			productReference = D2FAA7F81CF38D5A00D4F47F /* Woman in the Machine.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D2FAA7D11CF38D5900D4F47F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Adrian McClure";
+				TargetAttributes = {
+					D2FAA7D81CF38D5A00D4F47F = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = AE2TVNU8AW;
+						LastSwiftMigration = 0800;
+					};
+					D2FAA7EC1CF38D5A00D4F47F = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = G3XV92BZ98;
+						LastSwiftMigration = 0800;
+						TestTargetID = D2FAA7D81CF38D5A00D4F47F;
+					};
+					D2FAA7F71CF38D5A00D4F47F = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = G3XV92BZ98;
+						LastSwiftMigration = 0800;
+						TestTargetID = D2FAA7D81CF38D5A00D4F47F;
+					};
+				};
+			};
+			buildConfigurationList = D2FAA7D41CF38D5900D4F47F /* Build configuration list for PBXProject "Woman in the Machine" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D2FAA7D01CF38D5900D4F47F;
+			productRefGroup = D2FAA7DA1CF38D5A00D4F47F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D2FAA7D81CF38D5A00D4F47F /* Woman in the Machine */,
+				D2FAA7EC1CF38D5A00D4F47F /* Woman in the MachineTests */,
+				D2FAA7F71CF38D5A00D4F47F /* Woman in the MachineUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D2FAA7D71CF38D5A00D4F47F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2FAA7E71CF38D5A00D4F47F /* LaunchScreen.storyboard in Resources */,
+				D2B5529A1D2068680063D28A /* Blank.png in Resources */,
+				D2C035BF1D2F431D007F6BF6 /* checked_box2.png in Resources */,
+				D2379AF01D4C6777000EB6AC /* BackButton2.png in Resources */,
+				D2FAA7E41CF38D5A00D4F47F /* Assets.xcassets in Resources */,
+				D22EE4D51CF4ED9D001749B6 /* Background2.png in Resources */,
+				D2B552981D2063910063D28A /* Save-icon.png in Resources */,
+				D2FAA7E21CF38D5A00D4F47F /* Main.storyboard in Resources */,
+				D2658E721D2F3ACF00F95BF3 /* unchecked_box.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2FAA7EB1CF38D5A00D4F47F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2FAA7F61CF38D5A00D4F47F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D2FAA7D51CF38D5A00D4F47F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2FAA7DF1CF38D5A00D4F47F /* ViewController.swift in Sources */,
+				D29CCE4C1D2C93EC00FF067F /* TableView.swift in Sources */,
+				D21859811D0F50510014598E /* CLTypingLabel.swift in Sources */,
+				D2FAA80B1CF3930A00D4F47F /* Game.swift in Sources */,
+				D24BF32B1D0CEEF7006BB28E /* Credits.swift in Sources */,
+				D29CCE4E1D2C9B1F00FF067F /* TableViewCell.swift in Sources */,
+				D2FAA7DD1CF38D5A00D4F47F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2FAA7E91CF38D5A00D4F47F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2FAA7F21CF38D5A00D4F47F /* Man_in_the_MachineTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2FAA7F41CF38D5A00D4F47F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2FAA7FD1CF38D5A00D4F47F /* Man_in_the_MachineUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D2FAA7EF1CF38D5A00D4F47F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D2FAA7D81CF38D5A00D4F47F /* Woman in the Machine */;
+			targetProxy = D2FAA7EE1CF38D5A00D4F47F /* PBXContainerItemProxy */;
+		};
+		D2FAA7FA1CF38D5A00D4F47F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D2FAA7D81CF38D5A00D4F47F /* Woman in the Machine */;
+			targetProxy = D2FAA7F91CF38D5A00D4F47F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D2FAA7E01CF38D5A00D4F47F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D2FAA7E11CF38D5A00D4F47F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D2FAA7E51CF38D5A00D4F47F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D2FAA7E61CF38D5A00D4F47F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D2FAA7FF1CF38D5A00D4F47F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Adrian McClure (W39WLMKPEP)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D2FAA8001CF38D5A00D4F47F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Adrian McClure (W39WLMKPEP)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D2FAA8021CF38D5A00D4F47F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "Man in the Machine/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "adrianm.com.Woman-in-the-Machine";
+				PRODUCT_NAME = "Woman in the Machine";
+				SWIFT_VERSION = 2.3;
+			};
+			name = Debug;
+		};
+		D2FAA8031CF38D5A00D4F47F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "Man in the Machine/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "adrianm.com.Woman-in-the-Machine";
+				PRODUCT_NAME = "Woman in the Machine";
+				SWIFT_VERSION = 2.3;
+			};
+			name = Release;
+		};
+		D2FAA8051CF38D5A00D4F47F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Man in the MachineTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "am.com.Man-in-the-MachineTests";
+				PRODUCT_NAME = "Woman in the Machine";
+				SWIFT_VERSION = 2.3;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Woman in the Machine.app/Woman in the Machine";
+			};
+			name = Debug;
+		};
+		D2FAA8061CF38D5A00D4F47F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Man in the MachineTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "am.com.Man-in-the-MachineTests";
+				PRODUCT_NAME = "Woman in the Machine";
+				SWIFT_VERSION = 2.3;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Woman in the Machine.app/Woman in the Machine";
+			};
+			name = Release;
+		};
+		D2FAA8081CF38D5A00D4F47F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Man in the MachineUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "am.com.Man-in-the-MachineUITests";
+				PRODUCT_NAME = "Woman in the Machine";
+				SWIFT_VERSION = 2.3;
+				TEST_TARGET_NAME = "Man in the Machine";
+			};
+			name = Debug;
+		};
+		D2FAA8091CF38D5A00D4F47F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Man in the MachineUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "am.com.Man-in-the-MachineUITests";
+				PRODUCT_NAME = "Woman in the Machine";
+				SWIFT_VERSION = 2.3;
+				TEST_TARGET_NAME = "Man in the Machine";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D2FAA7D41CF38D5900D4F47F /* Build configuration list for PBXProject "Woman in the Machine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2FAA7FF1CF38D5A00D4F47F /* Debug */,
+				D2FAA8001CF38D5A00D4F47F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D2FAA8011CF38D5A00D4F47F /* Build configuration list for PBXNativeTarget "Woman in the Machine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2FAA8021CF38D5A00D4F47F /* Debug */,
+				D2FAA8031CF38D5A00D4F47F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D2FAA8041CF38D5A00D4F47F /* Build configuration list for PBXNativeTarget "Woman in the MachineTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2FAA8051CF38D5A00D4F47F /* Debug */,
+				D2FAA8061CF38D5A00D4F47F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D2FAA8071CF38D5A00D4F47F /* Build configuration list for PBXNativeTarget "Woman in the MachineUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2FAA8081CF38D5A00D4F47F /* Debug */,
+				D2FAA8091CF38D5A00D4F47F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D2FAA7D11CF38D5900D4F47F /* Project object */;
+}
